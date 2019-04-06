@@ -1,0 +1,51 @@
+.float-left{
+    float:left
+}
+
+.box{
+    position: relative;
+    width:270px;
+    margin-right:20px;
+}
+
+.box:nth-last-child(3){
+    margin-right: 0px
+}
+
+.box-i{
+    position:relative;
+}
+
+.box-img{
+    float: left;
+    width:100%;
+    overflow: hidden;
+}
+
+.box-img-img{
+    width:150%;
+    padding-bottom:120%;
+    background-size:200% 200%;
+    background-position: 55% 50%;
+}
+
+.box-img img{
+    float: left;
+    width: 100%;
+    transform: scale(2.2)
+}
+
+.box-square{
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 1;
+    width:40%;
+    height: 100%;
+    background: white;
+}
+
+.box-hour{
+    float:left;
+    width:100%;
+}
